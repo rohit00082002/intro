@@ -16,9 +16,8 @@ class IndexController extends AbstractActionController
 {
     public function indexAction()
     {
-
-	 $plugin = $this->PageTitle();
-	$plugin->doSomething();
+		$plugin = $this->PageTitle();
+		$plugin->doSomething();
         return new ViewModel();
     }
     public function index2Action()
