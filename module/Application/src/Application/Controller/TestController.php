@@ -8,7 +8,7 @@ class TestController extends AbstractActionController
 {
     public function testAction()
     {
-	echo 'test/test';
+	echo 'Intro APP::R1Controller::test/test';
 	return new ViewModel();
     }
     public function indexAction()
